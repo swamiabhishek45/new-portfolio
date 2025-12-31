@@ -2,7 +2,7 @@
 import { GoogleGenAI, Modality, Type, FunctionDeclaration } from "@google/genai";
 import { PersonaMode, ChatMessage } from "../types/types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyA26zuPRIkH_E0PXdmcLakl2nlQvM2UoGE" });
 console.log("API KEY EXISTS:", !!process.env.API_KEY);
 
 const sendEmailFunctionDeclaration: FunctionDeclaration = {
