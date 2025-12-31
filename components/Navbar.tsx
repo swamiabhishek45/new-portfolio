@@ -10,7 +10,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-slate-200 dark:border-slate-800 h-16 flex items-center px-6 md:px-12 justify-between">
             <div className="text-xl font-bold bg-linear-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                AlexTech.
+                AbhiTech.
             </div>
 
             <div className="hidden lg:flex items-center space-x-8 text-sm font-medium">
